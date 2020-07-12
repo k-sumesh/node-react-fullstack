@@ -1,0 +1,25 @@
+{
+  "name": "react-fullstack",
+  "version": "1.0.0",
+  "description": "a react node project with typescript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-sumesh/node-react-fullstack.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "typescript",
+    "fullstack"
+  ],
+  "author": "sumesh K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-sumesh/node-react-fullstack/issues"
+  },
+  "homepage": "https://github.com/k-sumesh/node-react-fullstack#readme"
+}
