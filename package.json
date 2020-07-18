@@ -4,7 +4,10 @@
   "description": "a react node project with typescript ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "cd server && npm install",
+    "start": "npm run start:server",
+    "start:server": "cd server && npm run serve"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,9 @@
   "homepage": "https://github.com/k-sumesh/node-react-fullstack#readme",
   "devDependencies": {
     "concurrently": "^5.2.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1"
   }
 }
